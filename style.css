@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #282938;
+  opacity: 1;
+  animation: opacity 1s ease-in;
+}
+
+nav {
+  padding: 25px 85px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.1);
+  font-weight: 100;
+}
+
+.nav-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  width: fit-content;
+  height: 40px;
+}
+
+.logo-container img {
+  height: 40px;
+}
+
+.nav-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.nav-buttons-container a {
+  display: flex;
+  height: 32px;
+  font-style: 16px;
+  font-size: 1em;
+  color: #1C1E53;
+  text-decoration: none;
+  align-items: center;
+}
+
+.nav-buttons-container a:focus, a:hover {
+  color: #5E3BEE;
+}
+
+.contactmebutton {
+  padding: 15px 40px;
+  border: 1px solid #5E3BEE;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #5E3BEE;
+  font-size: 16px;
+}
+
+header{
+    background-color: #F5FCFF;
+}
+.header-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header-container p {
+    font-size: 1em;
+}
+.header-container h1 {
+    
+    font-size: 3.5em;
+}
+.header-left{
+    padding-top: 100px;
+    width: 50%;
+}
+.header-right {
+    height: 100%;
+    width: 50%;
+}
+.header-right img {
+    height: 100%;
+    width: 100%;
+}
+.header-left-getintouchbutton{
+    padding: 20px;
+    width: 100px; ;
+    font-weight: 100;
+    background: #5E3BEE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+}
+.myskills{
+    padding: 100px;
+}
+.myskills h1 {
+    
+    font-size: 3.5em;
+}
+.myskillscontainer{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.myskillscontainer-firstitem{
+    background-color: #F5FCFF;
+    width: 25%;
+    height: 100%;
+}
+.myskillscontainer-secounditem{
+    background-color: #F5FCFF;
+    width: 25%;
+    height: 100%;
+}
+.myskillscontainer-thirditem{
+    background-color: #F5FCFF;
+    width: 25%;
+    height: 100%;
+}
+.myskillscontainer-fourthitem{
+    background-color: #F5FCFF;
+    width: 25%;
+    height: 100%;
+}
+.strategy {
+    margin: 30px ;
+    width: fit-content;
+    background: #FFFFFF;
+    
+}
+.strategytext{
+    margin: 30px;
+    font-weight: 700;
+}
+.stratlorem {
+    margin: 30px;
+}
+.aboutme-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.aboutmeleft {
+
+    height: 100%;
+    width: 50%;
+}
+
+
+.aboutme-container p {
+    font-size: 1em;
+}
+.aboutme-container h1 {
+    
+    font-size: 3.5em;
+}
+.aboutmeright{
+    padding-top: 400px;
+    padding-left: 150px;
+    width: 50%;
+}
+
+.aboutmeleft img {
+    height: 100%;
+    width: 100%;
+}
+
+.myportfolio {
+    padding: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 600px;
+  }
+  
+  .textportfolio {
+    height: 100%;
+    width: 50%;
+  }
+  
+  .portfoliobutton {
+    height: 50px;
+    width: fit-content;
+    background: #E62872;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .portfoliobutton img {
+    margin: 10px;
+  }
+  
+  .myportcontainer {
+    height: auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; 
+  }
+  
+  .item {
+    width: 31%;
+    height:fit-content;
+    background-color: #ffffff;
+    box-sizing: border-box;
+  }
+  
+  .item h2 {
+    margin: 30px;
+  }
+  
+  .text {
+    margin-left: 30px;
+  }
+  
+  .link {
+    margin: 30px;
+  }
+  
+  .link a:focus,
+  a:hover {
+    color: #5E3BEE;
+  }
+  
+  .customer {
+    height: auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1; 
+  }
+  
+  .flexbox-item {
+    width: 31%;
+    height:fit-content;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid blue;
+  }
+
+  .clientsfeedback{
+    padding: 100px;
+}
+.stars{
+    padding: 30px;
+}
+.avatarpic {
+    padding: 30px;
+}
+.contactmefield{
+
+    padding: 100px 650px 10px 650px;
+
+    height: auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    flex-grow: 1; 
+}
+.contactmeflex {
+    width: 50%;
+    display: flex;
+  flex-direction: column;
+    height:fit-content;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid blue;
+  }
+.contactme{
+    padding-top: 100px;
+    width: 50%;
+			margin: 0 auto;
+			
+			text-align: center;
+}
+.message{padding: 20px 650px 10px 650px;
+
+}
+.checkbox{padding: 10px 650px 10px 650px;
+
+}
+
+.submitbutton{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100px;
+    height:fit-content;
+			margin: 0 auto;
+			
+			text-align: center;
+    background: #5E3BEE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+footer{
+    padding-top: 200px;
+    width: 100%;
+}
+
+.footer-container{
+    padding: 50px 100px;
+    background-color: #F5FCFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.subfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials-container {
+    height: 25px;
+    align-items: center;
+}
+.socials-container a{
+    text-decoration: none;
+}
+.socials-container img{
+    height: 100%;
+}
+
+
+.lower-footer{
+    margin-top: 80px;
+    padding: 20px 0px;
+    border-top: rgba(40, 41, 56, 0.55) 1px groove;
+}
+.policies{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.8em;
+}
+.policies a{
+    color: black;
+    text-decoration: none;
+}

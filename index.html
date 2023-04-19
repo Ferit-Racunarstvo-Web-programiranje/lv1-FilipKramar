@@ -89,14 +89,16 @@
         </div>
     </div>
     <div>
-        <div class="myportfolio">
-          <div class="textportfolio"> 
-            <b>Recent Projects</b>
-            <h1>My Portfolio</h1>
-          </div>
-          <div class="portfoliobutton"> <img src="Image/Vector.png" width="20px" height="20px"> Visit My Dribbble</div>
+      <div class="myportfolio">
+        <div class="textportfolio"> 
+          <b>Recent Projects</b>
+          <h1>My Portfolio</h1>
+        </div>
+        <div class="portfoliobutton"> 
+          <img src="Image/Vector.png" width="20px" height="20px"> Visit My Dribbble
         </div>
       </div>
+      
       <div>
       <div class="myportcontainer">
         <div class="item">
@@ -143,43 +145,57 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
     </div>
 
-    <div class="contactmefield">
+    <div class="form-container">
+      <div class="contactmefield">
         <div class="contactflex">
+          
+            <div>
+              <label for="first-name-field">First name:</label>
+              <p><input type="text" id="first-name-field" name="firstname" rows="5" cols="100"></p>
+            </div>
+          
           <div>
-            <label for="my-text-field">First name:</label>
-            <p><input type="text" id="my-text-field" name="name"></p>
-          </div>
-          <div>
-            <label for="my-text-field">Email:</label>
-            <p><input type="text" id="my-text-field" name="name"></p>
+            <label for="email-field">Email:</label>
+            <p><input type="text" id="email-field" name="email" rows="5" cols="50"></p>
           </div>
         </div>
         <div class="contactflex">
           <div>
-            <label for="my-text-field">Last name:</label>
-            <p><input type="text" id="my-text-field" name="name"></p>
+            <label for="last-name-field">Last name:</label>
+            <p><input type="text" id="last-name-field" name="lastname" rows="5" cols="50"></p>
           </div>
           <div>
-            <label for="my-text-field">Phone Number:</label>
-            <p><input type="text" id="my-text-field" name="name"></p>
+            <label for="phone-field">Phone Number:</label>
+            <p><input type="text" id="phone-field" name="phone" rows="5" cols="50"></p>
           </div>
         </div>
       </div>
       
-    
+      <div class="dropdown">
+        <div class="textfield">
+          <input class="dropdown-input" type="text" placeholder="Select an option">
+          <div class="dropdown-arrow"></div>
+        </div>
+        <div class="dropdown-content">
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+          <a href="#">Option 3</a>
+        </div>
       </div>
-      <div>
-        <span style="padding: 5px 650px;">Choose a topic</span>
-        <span style="padding: 20px 650px;"><img src="Image/Input.png" width="450px" height="50px"/></span>
-      </div>
+      
+      
       <div class="message">
-        <label for="my-text-field">Message:</label>
-<p><input type="text" id="my-text-field" name="name" style="width: 450px; height: 100px;"></p>
-
+        <label for="message-field">Message:</label>
+        <p><textarea id="message-field" name="message" rows="5" cols="110"></textarea></p>
+      </div>
+      
+      <div class="checkbox">
+        <input type="checkbox" id="terms-checkbox" name="terms" value="1">
+        <label for="terms-checkbox">I accept the terms</label> 
+      </div>
     </div>
-    <div class="checkbox">
-        <input type="checkbox" id="my-checkbox" name="my-checkbox" value="1">
-<label for="my-checkbox">I accept the terms</label>
+    
+      
 
     </div>
     <div class="submitbutton">Submit</div>
